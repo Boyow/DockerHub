@@ -1,4 +1,7 @@
-FROM httpd:latest
-LABEL maintainer="markoz"
-RUN apt-get update && apt-get install apache2 -y
-EXPOSE 8080
+FROM openjdk:8
+
+RUN apt-get update -y
+RUN apt-get upgrade -y
+COPY ./
+RUN javac DockerConnectMySQL.java
+CMD ["java","-cp",".:/mysql-connector-java-8.0.21.jar","DockerConnectMySQL"]
