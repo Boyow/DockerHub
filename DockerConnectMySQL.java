@@ -7,7 +7,7 @@ public class DockerConnectMySQL {
    static final String USER = "mkozicki";
    static final String PASS = "mkozicki";
    
-   public static void main(String[] args) {
+   public static void main(String[] args) throws SQLException, ClassNotFoundException {
    Connection conn = null;
    Statement stmt = null;
    try{
