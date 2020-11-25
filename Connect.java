@@ -33,7 +33,7 @@ public class Connect {
                 + "`pensja` VARCHAR(10) NOT NULL , \n"
                 + "`firma` VARCHAR(400) NOT NULL\n"
                 + "); \n"
-                + "INSERT INTO `praconwik` (nazwisko, pensja, firma) VALUES \n"
+                + "INSERT INTO `pracownik` (nazwisko, pensja, firma) VALUES \n"
                 + "(\"Cichy\", \"3\", \"Goudex\"),\n"
                 + "(\"Marcinek\", \"333\", \"testowa\"),\n"
                 + "(\"Komar\",\"23\",\"Dostra\"),\n"
