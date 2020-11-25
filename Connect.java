@@ -8,7 +8,7 @@ import java.util.*;
 public class Connect {
 
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost:3306/mkozicki";
+    static final String DB_URL = "jdbc:mysql://10.0.10.3:3306/mkozicki";
 
     static final String USER = "root";
     static final String PASS = "";
