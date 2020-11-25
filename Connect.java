@@ -10,8 +10,8 @@ public class Connect {
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
     static final String DB_URL = "jdbc:mysql://10.0.10.3:3306/mkozicki";
 
-    static final String USER = "root";
-    static final String PASS = "";
+    static final String USER = "mkozicki";
+    static final String PASS = "mkozicki";
 
     static Statement statement = null;
     static Connection conn = null;
