@@ -27,7 +27,6 @@ public class Connect {
                     conn = (Connection) DriverManager.getConnection(DB_URL, USER, PASS);
                     System.out.println("CONNECTION SUCCESSFUL");
                 } catch (ClassNotFoundException ex) {
-                    Logger.getLogger(Database.class.getName()).log(Level.SEVERE, null, ex);
                     System.out.println("CONNECTION ERROR");
                 }
         }
