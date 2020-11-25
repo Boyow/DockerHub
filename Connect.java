@@ -36,7 +36,7 @@ public class Connect {
                         + "(\"Komar\",\"23\",\"Dostra\"),\n"
                         + "(\"Wesoły\",\"52\",\"Kwantowa\");";
                 stmt.execute(sql);
-                sql = "SELECT * FROM pracownik";
+                sql = "SELECT * FROM pfwco_lab4`.`pracownik";
                 ResultSet rs = stmt.executeQuery(sql);
 
                 while (rs.next()) {
